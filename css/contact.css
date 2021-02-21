@@ -1,0 +1,44 @@
+
+.contact-content h2 {
+    text-align: center;
+    font-size: xx-large;
+    font-family: cursive;
+}
+
+.contact-form {
+    margin: 60px;
+}
+.contact-content{
+   
+    height: 526px;;
+    padding: 18px;
+    position: relative;
+   
+    padding-top: 35px;
+}
+
+
+.contact-content::after{
+    content: "";
+    background-image: url('../img/img6.jpg') ;
+    background-size: cover;
+    position: absolute;
+    height: inherit;
+    width: 100%;
+    opacity: 0.20;
+   top: 30px;
+   z-index: -1;
+   left: 0;
+}
+
+.form-box{
+    margin-top: 20px;
+    display: flex;
+}
+.form-box span{
+    width: 12%;
+}
+.form-box input, textarea{
+    width: 40%;
+    
+}
